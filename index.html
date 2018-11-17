@@ -11,17 +11,28 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
-    <title>Hello, world!</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <title>PHP Serbia Conference 2019</title>
 </head>
 <body>
+<div class="background">
 <div class="main">
     <header>
         <nav class="navbar">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img class="img-responsive" src="img/logo2019.png" alt="">
             </a>
+
         </nav>
+        <div class="browse-past-editions d-flex p-2">
+            <p class="text-white mr-1">Browse past editions:</p>
+            <a href="https://conf2018.phpsrbija.rs/" class="mx-1 y-2018">2018</a>
+            <a href="http://www.conf2017.phpsrbija.rs/" class="mx-1 y-2017">2017</a>
+            <a href="https://conf2016.phpsrbija.rs/" class="mx-1 y-2016">2016</a>
+            <a href="https://soliday.phpsrbija.rs/" class="mx-1 y-2015">2015</a>
+            <a href="https://tday2014.phpsrbija.rs/" class="mx-1 y-2014">2014</a>
+            <a href="https://gcd.phpsrbija.rs/" class="mx-1 y-2013">2013</a>
+        </div>
     </header>
 
     <div class="content-wrapper">
@@ -30,51 +41,57 @@
             <!--heading-->
             <div class="row main-heading">
                 <div class="col-12 text-center">
-                    <h1>PHP Serbia Conference 2019 comming soon</h1>
+                    <h1 class="position-relative">PHP Serbia Conference 2019<span></span></h1>
+                </div>
+                <div class="col-12 date text-center color-yellow pt-3">
+                    <p>03. December 2018</p>
                 </div>
             </div>
 
             <!--countdown-->
-            <div id="countdown" class="row my-5">
-                <div class="col-12 countdown-content d-flex justify-content-between">
-                    <div id="circleD" class="circle">
-                        <div class="countdown-block-d">
-                            <p class="days countdown-number color-green">00</p>
-                            <p class="timeRefDays countdown-text">D</p>
+            <div id="countdown" class="row mb-5 mt-2">
+                <div class="col-12 countdown-content d-flex justify-content-center">
+                        <div class="countdown-block">
+                            <p class="days countdown-number color-yellow">00 </p>
+                            <p class="timeRefDays countdown-text">Days</p>
+                        </div>
+                    <div class="dots mx-3">
+                        <p>:</p>
+                    </div>
+                        <div class="countdown-block">
+                            <p class="hours countdown-number color-blue">00</p>
+                            <p class="timeRefHours countdown-text">Hours</p>
 
                         </div>
+                    <div class="dots mx-3">
+                        <p>:</p>
                     </div>
-                    <div id="circleH" class="circle">
-                        <div class="countdown-block-h">
-                            <p class="hours countdown-number color-red">00</p>
-                            <p class="timeRefHours countdown-text">H</p>
-                        </div>
-                    </div>
-                    <div id="circleM" class="circle">
-                        <div class="countdown-block-m">
-                            <p class="minutes countdown-number color-blue">00</p>
-                            <p class="timeRefMinutes countdown-text">M</p>
+                        <div class="countdown-block">
+                            <p class="minutes countdown-number color-red">00</p>
+                            <p class="timeRefMinutes countdown-text">Minutes</p>
 
                         </div>
-                    </div>
 
-                    <div id="circleS" class="circle">
-                        <div class="countdown-block-s">
-                            <p class="seconds countdown-number color-yellow">00</p>
-                            <p class="timeRefSeconds countdown-text">S</p>
+                    <div class="dots mx-3">
+                        <p>:</p>
+                    </div>
+                        <div class="countdown-block">
+                            <p class="seconds countdown-number color-green">00</p>
+                            <p class="timeRefSeconds countdown-text">Seconds</p>
+
                         </div>
 
-                    </div>
                 </div>
             </div>
+
 
 
             <!--email form-->
             <div class="row email-form ">
                 <div class="col-12 ">
                     <form action="">
-                        <input type="text" class="email-form__email p-2 mr-2" placeholder="Enter email ...">
-                        <input type="submit" class="email-form__submit p-2" value="SUBSCRIBE">
+                        <input type="text" class="email-form__email p-3 mr-2" placeholder="Enter email ...">
+                        <input type="submit" class="email-form__submit p-3" value="SUBSCRIBE">
                     </form>
                 </div>
             </div>
@@ -83,19 +100,28 @@
             <div class="row mt-5">
                 <div class="col-12 text-center">
                     <ul class="social-network social-circle">
-                        <li><a href="https://www.facebook.com/udruzenjeprogramera.rs" title="Facebook"><i
-                                class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://twitter.com/PHPSrbija" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <li>
+                            <a href="https://www.facebook.com/udruzenjeprogramera.rs" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                         </li>
-                        <li><a href="https://www.linkedin.com/company/udru-enje-gra-ana-php-srbija-" title="LinkedIn"><i
-                                class="fab fa-linkedin-in"></i></a></li>
+                        <li>
+                            <a href="https://twitter.com/PHPSrbija" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/udru-enje-gra-ana-php-srbija-" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
